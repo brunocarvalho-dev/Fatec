@@ -210,15 +210,3 @@ def main():
 # ================== INICIAR O JOGO ==================
 if __name__ == "__main__":
     main()
-
-
-'''
-opcoes = []
-opcoes.append(poderes)
-lista = random.choice(opcoes)
-print(random.choice(lista))
-poder = escolha_jogador_poder()
-
-poder = calculo_taque("PEDRA",random.choice(poderes))
-print(poder)
-'''
