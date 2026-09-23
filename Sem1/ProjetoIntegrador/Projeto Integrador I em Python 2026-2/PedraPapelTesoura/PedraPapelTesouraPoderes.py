@@ -144,8 +144,8 @@ def verificar_vencedor(jogador, computador):
     if jogador == computador:
         return "EMPATE"
     elif (jogador == "PEDRA" and computador == "TESOURA") or \
-         (jogador == "PAPEL" and computador == "PEDRA") or \
-         (jogador == "TESOURA" and computador == "PAPEL"):
+        (jogador == "PAPEL" and computador == "PEDRA") or \
+        (jogador == "TESOURA" and computador == "PAPEL"):
         return "JOGADOR"
     else:
         return "COMPUTADOR"
