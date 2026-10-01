@@ -33,7 +33,6 @@ def entrada_valores():
                 print("VALOR INVÁLIDO!\nDIGITE NOVAMENTE:")
                 time.sleep(1)
     validacao_triangulo(lados)
-
 # ==================== MODE ====================
 def validacao_triangulo(lados):
     if lados[0] >= (lados[1] + lados[2]) or lados[1] >= (lados[0] + lados[2] or lados[2] >= (lados[0] + lados[1])):
@@ -44,7 +43,6 @@ def validacao_triangulo(lados):
         mostrar_resultado("é um TRIÂNGULO ISÓCELES" )
     elif(lados[0] != lados[1] != lados[2]):
         mostrar_resultado("é um TRIÂNGULO ESCALENO")
-
 # ==================== MAIN ====================
 def main () :
     os.system("cls")
